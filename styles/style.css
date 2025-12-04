@@ -527,6 +527,7 @@ body {
   width: 264.57px;
   height: 98px;
   left: 50px;
+
   top: 0; 
   font-style: normal;
   line-height: 24.3px;
@@ -539,6 +540,7 @@ body {
   position: absolute;
   width: 163.9px;
   height: 64px;
+
   left: 468.6px;
   top: 0; 
   margin: 0;
@@ -548,6 +550,7 @@ body {
 .footer__social-list {
   position: absolute;
   width: 240px;
+  
   height: 48px;
   left: 810px;
   top: 0; 
