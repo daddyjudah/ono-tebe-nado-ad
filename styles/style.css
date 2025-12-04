@@ -1,4 +1,4 @@
-
+/* Базовые стили */
 body {
   font-family: Raleway, sans-serif;
   font-weight: normal;
@@ -10,7 +10,9 @@ body {
   position: relative;
 }
 
-
+/* ---------------- */
+/* HEADER */
+/* ---------------- */
 
 .header {
   position: absolute;
@@ -192,7 +194,9 @@ body {
   color: #000000;
 }
 
-
+/* ---------------- */
+/* COVER */
+/* ---------------- */
 
 .cover {
   position: absolute;
@@ -291,7 +295,9 @@ body {
   font-weight: normal;
 }
 
-
+/* ---------------- */
+/* LOTS */
+/* ---------------- */
 
 .lots {
   position: absolute;
@@ -426,7 +432,9 @@ body {
   font-weight: normal;
 }
 
-
+/* ---------------- */
+/* ABOUT */
+/* ---------------- */
 
 .about {
   position: absolute;
@@ -509,7 +517,9 @@ body {
   overflow: hidden;
 }
 
-
+/* ---------------- */
+/* FOOTER */
+/* ---------------- */
 
 .footer {
   position: absolute;
@@ -527,8 +537,7 @@ body {
   width: 264.57px;
   height: 98px;
   left: 50px;
-
-  top: 0; 
+  top: 0; /* Было 41px */
   font-style: normal;
   line-height: 24.3px;
   font-weight: normal;
@@ -540,9 +549,8 @@ body {
   position: absolute;
   width: 163.9px;
   height: 64px;
-
   left: 468.6px;
-  top: 0; 
+  top: 0; /* Было 58px */
   margin: 0;
   padding: 0;
 }
@@ -550,10 +558,9 @@ body {
 .footer__social-list {
   position: absolute;
   width: 240px;
-  
   height: 48px;
   left: 810px;
-  top: 0; 
+  top: 0; /* Было 66px */
   display: flex;
   gap: 48px;
   list-style: none;
